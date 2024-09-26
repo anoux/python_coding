@@ -1,4 +1,4 @@
-# Basic Python course and exercises.
+# Basic Python knowledge.
 
 ## Key Concepts
 
