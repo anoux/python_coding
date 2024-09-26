@@ -30,4 +30,5 @@ Also, there is a function called type() which returns the data type of a variabl
 - A module is a file containing Python definitions and statements. Each module consists of entities (functions, variables, constants, classes, and objects).
 - A module user is the one that uses an existing module, meanwhile the module supplier is the one who creates a brand new module.
 - A large number of modules is delivered together with Python itself. All these modules, along with the built-in functions, form the Python standard library.
-- To make a module usable, it must be imported by using the `import` keyword followed by the module's name.
+- To make a module usable, it must be imported by using the `import` keyword followed by the module's name. If only a certain entity or entities from a module are wanted to import, then `from module import entity`. e.g. `from math import pi`.
+
