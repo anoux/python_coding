@@ -19,12 +19,11 @@ Rules for varaibles names: only start with letter or underscore and they are cas
 - float (is dominating in presence of an integer)
 - string
 
-Also, there is a function called type() which returns the data type of a variable as well as there are the functions int(), float() and str() to convert a variable to one or another type. Anymay, the use of these is limited to logical conversions, e.g. the following `int('hello there')` returns an error
-
 ### Some functions
-- input() makes Python read data from the user
-- type() returns data type
-- int() str() float() coverts data type to another type
+- `input()` makes Python read data from the user
+- `type()` returns data type
+- `int() str() float()` coverts data type to another type. The use of these is limited to logical conversions, e.g. the following `int('hello there')` returns an error
+- `dir()` returns an alphabetically sorted list containing all entities' names available in a module given as argument. e.g. `dir(math)`. Before using it, the module must have been already imported.
 
 ### Modules
 - A module is a file containing Python definitions and statements. Each module consists of entities (functions, variables, constants, classes, and objects).
