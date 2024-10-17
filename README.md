@@ -33,3 +33,7 @@ Rules for varaibles names: only start with letter or underscore and they are cas
 
 ### Packages
 - A package is a set of modules. The presence of the __init.py__ file finally makes up the package.
+
+### Dependencies
+Adependency is a phenomenon that appears every time you're going to use a piece of software that relies on other software.
+`pip` can discover, identift and resolve all dependencies
