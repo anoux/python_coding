@@ -24,6 +24,7 @@ Rules for varaibles names: only start with letter or underscore and they are cas
 - `type()` returns data type
 - `int() str() float()` coverts data type to another type. The use of these is limited to logical conversions, e.g. the following `int('hello there')` returns an error
 - `dir()` returns an alphabetically sorted list containing all entities' names available in a module given as argument. e.g. `dir(math)`. Before using it, the module must have been already imported.
+- `len('string')` returns the length of a string as an integer 
 
 ### Modules
 - A module is a file containing Python definitions and statements. Each module consists of entities (functions, variables, constants, classes, and objects).
